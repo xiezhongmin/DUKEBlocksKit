@@ -1,0 +1,2 @@
+# DUKEBlocksKit
+DUKEBlocksKit部分借鉴了著名框架Aspects，BlocksKit，ReactiveCocoa的神奇的宏定义。实现了更加灵活的动态代理，模仿RAC神奇的宏RAC与RACObserve属性绑定
