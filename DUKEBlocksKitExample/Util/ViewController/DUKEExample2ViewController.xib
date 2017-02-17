@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DUKEExample2ViewController">
+            <connections>
+                <outlet property="button" destination="wae-dl-x0J" id="AX1-Bw-OX4"/>
+                <outlet property="textfield" destination="KvR-cv-Yw2" id="Vlk-dJ-hTZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KvR-cv-Yw2">
+                    <rect key="frame" x="57.5" y="318.5" width="260" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="tar-da-8OB"/>
+                        <constraint firstAttribute="width" constant="260" id="yZo-dD-8lU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wae-dl-x0J">
+                    <rect key="frame" x="81.5" y="398.5" width="212" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="FhR-6p-e7E"/>
+                        <constraint firstAttribute="width" constant="212" id="qmu-MN-ag2"/>
+                    </constraints>
+                    <state key="normal" title="Change Text">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="changeMessage:" destination="-1" eventType="touchUpInside" id="zIA-vU-v8c"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="wae-dl-x0J" firstAttribute="top" secondItem="KvR-cv-Yw2" secondAttribute="bottom" constant="50" id="3Av-MJ-c9p"/>
+                <constraint firstItem="KvR-cv-Yw2" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="79G-QJ-zvM"/>
+                <constraint firstItem="wae-dl-x0J" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="raC-TG-Vpp"/>
+                <constraint firstItem="KvR-cv-Yw2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zjk-2M-azp"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
