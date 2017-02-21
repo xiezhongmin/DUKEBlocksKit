@@ -5,11 +5,11 @@
 - DUKEBlocksKit部分借鉴了著名框架[Aspects](https://github.com/steipete/Aspects) , [BlocksKit](https://github.com/zwaldowski/BlocksKit) 与 [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) 神奇的宏定义
 - 1.动态代理:
 	- 先简单的介绍一下[BlocksKit](https://github.com/zwaldowski/BlocksKit) 框架的动态代理 在动态代理这部分可以说是 BlocksKit 的精华。它使用 block 属性替换 UIKit中的所有能够通过代理完成的事件，省略了设置代理和实现方法的过程，让对象自己实现代理方法（其实不是对象自己实现的代理方法，只是框架为我们提供的便捷方法，不需要构造其它对象就能完成代理方法的实现），而且这个功能的实现是极其动态的。具体可以参照博客 [神奇的BlocksKit](http://draveness.me/blockskit-2)
-	- [DUKEBlocksKit]()在使用上优于BlocksKit, BlocksKit动态代理步骤比较繁琐：1.获取及注册被代理类的动态代理对象 2.需要将委托对象的代理方法映射一个block对象 3.设置为动态代理  DUKEBlocksKit使用步骤请见后面示例
-	- [DUKEBlocksKit]()支持自定义委托方法转block
+	- [DUKEBlocksKit](https://github.com/xiezhongmin/DUKEBlocksKit)在使用上优于BlocksKit, BlocksKit动态代理步骤比较繁琐：1.获取及注册被代理类的动态代理对象 2.需要将委托对象的代理方法映射一个block对象 3.设置为动态代理  DUKEBlocksKit使用步骤请见后面示例
+	- [DUKEBlocksKit](https://github.com/xiezhongmin/DUKEBlocksKit)支持自定义委托方法转block
 	
 - 2.RAC(TARGET, ...) 与 RACObserve(TARGET, KEYPATH)的巧妙结合
-	- [DUKEBlocksKit]()模仿了[ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) 支持KVO神奇的宏，例如 RAC宏绑定属性:
+	- [DUKEBlocksKit](https://github.com/xiezhongmin/DUKEBlocksKit)模仿了[ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) 支持KVO神奇的宏，例如 RAC宏绑定属性:
 ```objc	
 	RAC(self.outputLabel, text) = RACObserve(self.model, name);
 ```	
