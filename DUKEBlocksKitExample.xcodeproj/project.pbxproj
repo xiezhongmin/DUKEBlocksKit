@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC24466D1E5ACE4800AABEEA /* DUKEConnectAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2446651E5ACE4800AABEEA /* DUKEConnectAssignment.m */; };
+		AC24466E1E5ACE4800AABEEA /* NSObject+DUKEBlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2446681E5ACE4800AABEEA /* NSObject+DUKEBlockDelegate.m */; };
+		AC24466F1E5ACE4800AABEEA /* NSObject+DUKEBlockObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC24466A1E5ACE4800AABEEA /* NSObject+DUKEBlockObservation.m */; };
+		AC2446701E5ACE4800AABEEA /* UIControl+DUKEBlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AC24466C1E5ACE4800AABEEA /* UIControl+DUKEBlocksKit.m */; };
 		ACA7E84F1E0A8FEA00FBC5AE /* DUKEExample1Model.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA7E8451E0A8FEA00FBC5AE /* DUKEExample1Model.m */; };
 		ACA7E8501E0A8FEA00FBC5AE /* DUKEExample1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA7E8481E0A8FEA00FBC5AE /* DUKEExample1TableViewCell.m */; };
 		ACA7E8511E0A8FEA00FBC5AE /* DUKEExample1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA7E8491E0A8FEA00FBC5AE /* DUKEExample1TableViewCell.xib */; };
@@ -22,10 +26,6 @@
 		ACF08A831E0A15D600F23ADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF08A811E0A15D600F23ADD /* LaunchScreen.storyboard */; };
 		ACF08A8E1E0A15D600F23ADD /* DUKEBlocksKitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF08A8D1E0A15D600F23ADD /* DUKEBlocksKitExampleTests.m */; };
 		ACF08A991E0A15D600F23ADD /* DUKEBlocksKitExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF08A981E0A15D600F23ADD /* DUKEBlocksKitExampleUITests.m */; };
-		ACF08AB11E0A15F000F23ADD /* DUKEConnectAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF08AA91E0A15F000F23ADD /* DUKEConnectAssignment.m */; };
-		ACF08AB21E0A15F000F23ADD /* NSObject+DUKEBlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF08AAC1E0A15F000F23ADD /* NSObject+DUKEBlockDelegate.m */; };
-		ACF08AB31E0A15F000F23ADD /* NSObject+DUKEBlockObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF08AAE1E0A15F000F23ADD /* NSObject+DUKEBlockObservation.m */; };
-		ACF08AB41E0A15F000F23ADD /* UIControl+DUKEBlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF08AB01E0A15F000F23ADD /* UIControl+DUKEBlocksKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC2446631E5ACE4800AABEEA /* DUKEBlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUKEBlocksKit.h; sourceTree = "<group>"; };
+		AC2446641E5ACE4800AABEEA /* DUKEConnectAssignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUKEConnectAssignment.h; sourceTree = "<group>"; };
+		AC2446651E5ACE4800AABEEA /* DUKEConnectAssignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUKEConnectAssignment.m; sourceTree = "<group>"; };
+		AC2446661E5ACE4800AABEEA /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		AC2446671E5ACE4800AABEEA /* NSObject+DUKEBlockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DUKEBlockDelegate.h"; sourceTree = "<group>"; };
+		AC2446681E5ACE4800AABEEA /* NSObject+DUKEBlockDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DUKEBlockDelegate.m"; sourceTree = "<group>"; };
+		AC2446691E5ACE4800AABEEA /* NSObject+DUKEBlockObservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DUKEBlockObservation.h"; sourceTree = "<group>"; };
+		AC24466A1E5ACE4800AABEEA /* NSObject+DUKEBlockObservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DUKEBlockObservation.m"; sourceTree = "<group>"; };
+		AC24466B1E5ACE4800AABEEA /* UIControl+DUKEBlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+DUKEBlocksKit.h"; sourceTree = "<group>"; };
+		AC24466C1E5ACE4800AABEEA /* UIControl+DUKEBlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+DUKEBlocksKit.m"; sourceTree = "<group>"; };
 		ACA7E8411E0A8FE200FBC5AE /* DUKEBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUKEBaseCell.h; sourceTree = "<group>"; };
 		ACA7E8441E0A8FEA00FBC5AE /* DUKEExample1Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUKEExample1Model.h; sourceTree = "<group>"; };
 		ACA7E8451E0A8FEA00FBC5AE /* DUKEExample1Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUKEExample1Model.m; sourceTree = "<group>"; };
@@ -74,16 +84,6 @@
 		ACF08A941E0A15D600F23ADD /* DUKEBlocksKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DUKEBlocksKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF08A981E0A15D600F23ADD /* DUKEBlocksKitExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUKEBlocksKitExampleUITests.m; sourceTree = "<group>"; };
 		ACF08A9A1E0A15D600F23ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACF08AA71E0A15F000F23ADD /* DUKEBlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUKEBlocksKit.h; sourceTree = "<group>"; };
-		ACF08AA81E0A15F000F23ADD /* DUKEConnectAssignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUKEConnectAssignment.h; sourceTree = "<group>"; };
-		ACF08AA91E0A15F000F23ADD /* DUKEConnectAssignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUKEConnectAssignment.m; sourceTree = "<group>"; };
-		ACF08AAA1E0A15F000F23ADD /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
-		ACF08AAB1E0A15F000F23ADD /* NSObject+DUKEBlockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DUKEBlockDelegate.h"; sourceTree = "<group>"; };
-		ACF08AAC1E0A15F000F23ADD /* NSObject+DUKEBlockDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DUKEBlockDelegate.m"; sourceTree = "<group>"; };
-		ACF08AAD1E0A15F000F23ADD /* NSObject+DUKEBlockObservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DUKEBlockObservation.h"; sourceTree = "<group>"; };
-		ACF08AAE1E0A15F000F23ADD /* NSObject+DUKEBlockObservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DUKEBlockObservation.m"; sourceTree = "<group>"; };
-		ACF08AAF1E0A15F000F23ADD /* UIControl+DUKEBlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+DUKEBlocksKit.h"; sourceTree = "<group>"; };
-		ACF08AB01E0A15F000F23ADD /* UIControl+DUKEBlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+DUKEBlocksKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +111,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC2446621E5ACE4800AABEEA /* DUKEBlocksKit */ = {
+			isa = PBXGroup;
+			children = (
+				AC2446631E5ACE4800AABEEA /* DUKEBlocksKit.h */,
+				AC2446641E5ACE4800AABEEA /* DUKEConnectAssignment.h */,
+				AC2446651E5ACE4800AABEEA /* DUKEConnectAssignment.m */,
+				AC2446661E5ACE4800AABEEA /* metamacros.h */,
+				AC2446671E5ACE4800AABEEA /* NSObject+DUKEBlockDelegate.h */,
+				AC2446681E5ACE4800AABEEA /* NSObject+DUKEBlockDelegate.m */,
+				AC2446691E5ACE4800AABEEA /* NSObject+DUKEBlockObservation.h */,
+				AC24466A1E5ACE4800AABEEA /* NSObject+DUKEBlockObservation.m */,
+				AC24466B1E5ACE4800AABEEA /* UIControl+DUKEBlocksKit.h */,
+				AC24466C1E5ACE4800AABEEA /* UIControl+DUKEBlocksKit.m */,
+			);
+			path = DUKEBlocksKit;
+			sourceTree = "<group>";
+		};
 		ACA7E83D1E0A8FD100FBC5AE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +210,7 @@
 		ACF08A721E0A15D600F23ADD /* DUKEBlocksKitExample */ = {
 			isa = PBXGroup;
 			children = (
-				ACF08AA61E0A15F000F23ADD /* DUKEBlocksKit */,
+				AC2446621E5ACE4800AABEEA /* DUKEBlocksKit */,
 				ACA7E83D1E0A8FD100FBC5AE /* Resource */,
 				ACA7E8401E0A8FE200FBC5AE /* Base */,
 				ACA7E8421E0A8FEA00FBC5AE /* Util */,
@@ -232,23 +249,6 @@
 				ACF08A9A1E0A15D600F23ADD /* Info.plist */,
 			);
 			path = DUKEBlocksKitExampleUITests;
-			sourceTree = "<group>";
-		};
-		ACF08AA61E0A15F000F23ADD /* DUKEBlocksKit */ = {
-			isa = PBXGroup;
-			children = (
-				ACF08AA71E0A15F000F23ADD /* DUKEBlocksKit.h */,
-				ACF08AA81E0A15F000F23ADD /* DUKEConnectAssignment.h */,
-				ACF08AA91E0A15F000F23ADD /* DUKEConnectAssignment.m */,
-				ACF08AAA1E0A15F000F23ADD /* metamacros.h */,
-				ACF08AAB1E0A15F000F23ADD /* NSObject+DUKEBlockDelegate.h */,
-				ACF08AAC1E0A15F000F23ADD /* NSObject+DUKEBlockDelegate.m */,
-				ACF08AAD1E0A15F000F23ADD /* NSObject+DUKEBlockObservation.h */,
-				ACF08AAE1E0A15F000F23ADD /* NSObject+DUKEBlockObservation.m */,
-				ACF08AAF1E0A15F000F23ADD /* UIControl+DUKEBlocksKit.h */,
-				ACF08AB01E0A15F000F23ADD /* UIControl+DUKEBlocksKit.m */,
-			);
-			path = DUKEBlocksKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,17 +388,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACF08AB21E0A15F000F23ADD /* NSObject+DUKEBlockDelegate.m in Sources */,
-				ACF08AB41E0A15F000F23ADD /* UIControl+DUKEBlocksKit.m in Sources */,
 				ACF08A781E0A15D600F23ADD /* AppDelegate.m in Sources */,
 				ACA7E84F1E0A8FEA00FBC5AE /* DUKEExample1Model.m in Sources */,
+				AC2446701E5ACE4800AABEEA /* UIControl+DUKEBlocksKit.m in Sources */,
 				ACA7E8531E0A8FEA00FBC5AE /* DUKEViewController.m in Sources */,
 				ACA7E8521E0A8FEA00FBC5AE /* DUKEExample1ViewController.m in Sources */,
-				ACF08AB31E0A15F000F23ADD /* NSObject+DUKEBlockObservation.m in Sources */,
 				ACA7E8591E0A922700FBC5AE /* DUKEExample2ViewController.m in Sources */,
-				ACF08AB11E0A15F000F23ADD /* DUKEConnectAssignment.m in Sources */,
 				ACF08A751E0A15D600F23ADD /* main.m in Sources */,
+				AC24466D1E5ACE4800AABEEA /* DUKEConnectAssignment.m in Sources */,
+				AC24466F1E5ACE4800AABEEA /* NSObject+DUKEBlockObservation.m in Sources */,
 				ACA7E8501E0A8FEA00FBC5AE /* DUKEExample1TableViewCell.m in Sources */,
+				AC24466E1E5ACE4800AABEEA /* NSObject+DUKEBlockDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
