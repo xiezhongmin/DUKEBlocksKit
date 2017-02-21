@@ -10,11 +10,6 @@
 @import ObjectiveC.runtime;
 @import ObjectiveC.message;
 
-typedef NS_ENUM(NSUInteger, DUKEObserverContext) {
-    DUKEObserverContextNormal,
-    DUKEObserverContextOptions
-};
-
 @interface DUKEObserver ()
 @property (nonatomic, copy) NSString *keyPath;
 @property (nonatomic, unsafe_unretained) NSObject *observer;
